@@ -1,0 +1,9 @@
+c:\users\bassem\documents\visual studio 2012\Projects\PizzaProject\PizzaProject\bin\Debug\PizzaProject.exe.config
+c:\users\bassem\documents\visual studio 2012\Projects\PizzaProject\PizzaProject\bin\Debug\PizzaProject.exe
+c:\users\bassem\documents\visual studio 2012\Projects\PizzaProject\PizzaProject\bin\Debug\PizzaProject.pdb
+c:\users\bassem\documents\visual studio 2012\Projects\PizzaProject\PizzaProject\obj\Debug\PizzaProject.csprojResolveAssemblyReference.cache
+c:\users\bassem\documents\visual studio 2012\Projects\PizzaProject\PizzaProject\obj\Debug\PizzaProject.Form1.resources
+c:\users\bassem\documents\visual studio 2012\Projects\PizzaProject\PizzaProject\obj\Debug\PizzaProject.Properties.Resources.resources
+c:\users\bassem\documents\visual studio 2012\Projects\PizzaProject\PizzaProject\obj\Debug\PizzaProject.csproj.GenerateResource.Cache
+c:\users\bassem\documents\visual studio 2012\Projects\PizzaProject\PizzaProject\obj\Debug\PizzaProject.exe
+c:\users\bassem\documents\visual studio 2012\Projects\PizzaProject\PizzaProject\obj\Debug\PizzaProject.pdb
