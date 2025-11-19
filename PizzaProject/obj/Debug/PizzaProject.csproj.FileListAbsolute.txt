@@ -7,3 +7,12 @@ c:\users\bassem\documents\visual studio 2012\Projects\PizzaProject\PizzaProject\
 c:\users\bassem\documents\visual studio 2012\Projects\PizzaProject\PizzaProject\obj\Debug\PizzaProject.csproj.GenerateResource.Cache
 c:\users\bassem\documents\visual studio 2012\Projects\PizzaProject\PizzaProject\obj\Debug\PizzaProject.exe
 c:\users\bassem\documents\visual studio 2012\Projects\PizzaProject\PizzaProject\obj\Debug\PizzaProject.pdb
+E:\PizzaShop\Pizza-Shop\PizzaProject\bin\Debug\PizzaProject.exe.config
+E:\PizzaShop\Pizza-Shop\PizzaProject\obj\Debug\PizzaProject.exe
+E:\PizzaShop\Pizza-Shop\PizzaProject\obj\Debug\PizzaProject.pdb
+E:\PizzaShop\Pizza-Shop\PizzaProject\bin\Debug\PizzaProject.exe
+E:\PizzaShop\Pizza-Shop\PizzaProject\bin\Debug\PizzaProject.pdb
+E:\PizzaShop\Pizza-Shop\PizzaProject\obj\Debug\PizzaProject.csprojResolveAssemblyReference.cache
+E:\PizzaShop\Pizza-Shop\PizzaProject\obj\Debug\PizzaProject.Form1.resources
+E:\PizzaShop\Pizza-Shop\PizzaProject\obj\Debug\PizzaProject.Properties.Resources.resources
+E:\PizzaShop\Pizza-Shop\PizzaProject\obj\Debug\PizzaProject.csproj.GenerateResource.Cache

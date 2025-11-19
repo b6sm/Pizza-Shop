@@ -144,6 +144,7 @@ namespace PizzaProject
 
         void UpdateOrderSummary()
         {
+           
             UpdateSize();
             UpdateToppings();
             UpdateWhereToEat();
@@ -297,6 +298,7 @@ namespace PizzaProject
             if (MessageBox.Show("Confirm Order", "Confirm", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
             {
                 MessageBox.Show("Order Place Successfuly", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                
                 gbSize.Enabled = false;
                 gbCrustType.Enabled = false;
                 gbToppings.Enabled = false;
@@ -318,12 +320,28 @@ namespace PizzaProject
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            DateTime systemtime = new DateTime();
+            systemtime = DateTime.Now;
+            label1.Text = systemtime.ToString("HH:mm:ss");
             UpdateOrderSummary();
         }
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
             UpdateTotalPrice();
+        }
+        int counter = 0;
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            counter++;
+            DateTime systemtime = new DateTime();
+            systemtime = DateTime.Now;
+            label1.Text = systemtime.ToString("HH:mm:ss");
+            if (systemtime.ToString("HH:mm:ss") == "00:00:00")
+            {
+                MessageBox.Show("The Work Time Is END !!", "Note", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
         }
 
        

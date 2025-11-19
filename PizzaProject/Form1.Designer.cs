@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lpPizza = new System.Windows.Forms.Label();
             this.rbThinCrust = new System.Windows.Forms.RadioButton();
             this.rbThinkCrust = new System.Windows.Forms.RadioButton();
@@ -60,6 +61,9 @@
             this.btmOrderPizza = new System.Windows.Forms.Button();
             this.btmResetForm = new System.Windows.Forms.Button();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.gbSize.SuspendLayout();
             this.gbCrustType.SuspendLayout();
             this.gbWhereToEat.SuspendLayout();
@@ -445,12 +449,43 @@
             0});
             this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
+            // label1
+            // 
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label1.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.label1.Location = new System.Drawing.Point(615, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(122, 32);
+            this.label1.TabIndex = 17;
+            this.label1.Text = "label1";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label2
+            // 
+            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label2.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.label2.ForeColor = System.Drawing.Color.Maroon;
+            this.label2.Location = new System.Drawing.Point(557, 289);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(180, 32);
+            this.label2.TabIndex = 18;
+            this.label2.Text = "note : close at 12 am";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
-            this.ClientSize = new System.Drawing.Size(781, 313);
+            this.ClientSize = new System.Drawing.Size(781, 328);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.btmResetForm);
             this.Controls.Add(this.btmOrderPizza);
@@ -513,6 +548,9 @@
         private System.Windows.Forms.Button btmOrderPizza;
         private System.Windows.Forms.Button btmResetForm;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
